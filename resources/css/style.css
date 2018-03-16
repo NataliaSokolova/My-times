@@ -63,20 +63,20 @@ header nav{
 
 .column.large {
 
-	border: 1px solid black;
+	
 	width: 630px;
 	
 }
 .column.medium{
-	border: 1px solid black;
+	
 	width: 300px;
 }
 .column.small{
-	border: 1px solid black;
+	
 	width: 240px;
 }
 .cookie{
-	border: 1px solid black;
+	
 	height: 240px;
 }
 .aju{
@@ -87,12 +87,7 @@ header nav{
 	
     width: 300px;
 }
-.explonation{
-	border: 1px solid black;
-}
-.textcontent{
-	border: 1px solid black;
-}
+
 .image-content{	
 	display: flex;
 	font-family: Georgia;
@@ -142,21 +137,35 @@ h3{
   text-align: center;
 }
 .foterend{	
-
-  font-family: Georgia;
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white ;
+  font-family: "Georgia", serif;
   font-size: 16px;
   font-weight: bold;
   color: white;
+  height: 16px;
 }
 .footer{
-   display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
+
   flex-direction: column;
   width: 100%;
   height: 325px;
   background-color: mediumaquamarine;
   margin: auto;
-  font-family: Verdana;
+  font-family: "Verdana", sans-serif;
   font-size: 12px;
+}
+.copyright{
+   display: flex;
+   display: inline-block;
+
+
+}
+.info{
+	height: 60px;
+
 }
